@@ -1,0 +1,351 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-size: 20px;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active {
+    color: grey;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+h1, h2, h3 {
+    color: darkblue;
+}
+/*Header element*/
+#container-section1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+/* logo div*/
+div.item1-header {
+    display: flex;
+    float: left;
+    width: 30%;
+    z-index: 1;
+}
+img.logo-header {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+/* nav bar div */
+div.item2-header {
+    display: flex;
+    float: right;
+    width: 70%;
+}
+ul.nav-bar-header-ul {
+    display: flex;
+    width: 100%;
+    float:right;
+    margin: auto;
+}
+li.nav-bar-header-list {
+    display: flex;
+    padding: 20px;
+    float: right;
+    margin: auto;
+}
+a.nav-bar-header-link {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.nav-bar-header-link:hover {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.nav-bar-header-link:active {
+    color: darkblue;
+    text-decoration: underline;
+}
+/*header section*/
+#header-section0 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+/* mains section div */
+#section-main {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+/*container div main 1, introduction section*/
+#container1-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+div.item1-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+img.dog-left {
+    height: 600px;
+    width: 100%;
+}
+div.item2-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+img.celebration-image {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+div.item3-main {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+img.dog-right {
+    height: 600px;
+    width: 100%;
+}
+/*what we do section*/
+#container-about{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+div.item-about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+img.icon1-about {
+    width: 120px;
+    height: 60px;
+    margin: auto;
+}
+img.icon2-about {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+img.icon3-about {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+/* You can make a difference section*/
+/*Container main tou can make a difference with orderlist*/
+#container2-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+/*section wishlist */
+div.wishlist {
+    text-align: center;
+}
+/*table*/
+table {
+    display: table;
+    margin: auto;
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+tr.table-headings {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+th {
+    border: 3px solid black;
+}
+td {
+    padding: 10px;
+}
+td.qty {
+    text-align: center;
+}
+/*This section is the video of a dog*/
+video {
+    width:640px; 
+    height:480; 
+    margin: 20px auto; 
+    display: block; 
+    border-radius:10%;
+}
+/*footer blue container with claws*/
+#header-container-blue {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+/* footer */
+/*footer section 0 */
+#footer-section0 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+/*footer blue container with claws*/
+#footer-container-blue {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+/*footer section 1*/
+#footer-section1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    background-color: lightgray;
+}
+/* container 1 in footer*/
+#container1-footer {
+    display: flex;
+    width: 30%;
+    flex-direction: column; 
+    margin: auto;
+}
+/* logo footer div */
+div.item1-footer {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+img.logo-footer {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+ul.nav-bar-footer-ul {
+    width: 80%;
+    margin: auto;
+    list-style: none;
+    padding: 10px;
+}
+LI.nav-bar-footer-list {
+    padding: 10px;
+}
+a.nav-bar-footer-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+}
+a.nav-bar-footer-link:hover {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.nav-bar-footer-link:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+/* container 2 */
+#container2-footer {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: auto;
+}
+/* Make a difference div */
+div.item2-footer {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: darkblue;
+}
+#container-images{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+}
+div.icons {
+    margin: auto;
+    align-items: center;
+}
+img.link-image {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.links {
+    color: darkblue;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.links:hover {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#date-time {
+    color: darkblue;
+    display: flex;
+    text-align: center;
+}
+/*container 3 with contact details */
+#container3-footer {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: auto;
+}
+div.item3-footer {
+    width: 100%;
+    margin: auto;
+    color: darkblue;
+}
+/*foooter section 2*/
+#footer-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    color: darkblue;
+}
